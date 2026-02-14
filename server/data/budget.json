@@ -1,0 +1,11 @@
+{
+  "transactions": [],
+  "projection": {
+    "projectedIncome": 0,
+    "projectedOutcome": 0
+  },
+  "savings": {
+    "total": 0,
+    "history": []
+  }
+}
