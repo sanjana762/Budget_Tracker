@@ -40,3 +40,10 @@ npm run dev
 ```bash
 npm run build
 ```
+
+
+## Vercel Deployment
+For Vercel, this project outputs the frontend build to `client/dist`.
+A root `vercel.json` is included so Vercel can detect:
+- `buildCommand`: `npm run build`
+- `outputDirectory`: `client/dist`
