@@ -1,12 +1,42 @@
-# Budget_Tracker
-A clean and modern **Budget Tracker** built using HTML, CSS, and JavaScript. Easily manage your income and expenses, visualize spending habits, and gain insights with bar charts and summaries.
-✨ Features
-Add income &  expenses with date, category & notes
-Generate financial overview with interactive graphs
-Automatically calculates balance, income, and expenses
-Set projected income & expense goals
-Filter transactions by month
-Export data as CSV
-Reset all data
-Toggle transaction history display
-Smooth UI with transitions and responsive design
+# Budget Tracker (React + Tailwind + Express)
+
+A full-stack budget tracker rebuilt with:
+- **Frontend:** React + Tailwind CSS
+- **Backend:** Node.js + Express
+- **Charts:** Pie chart for expense categories
+
+## Features Implemented
+- Responsive **dropdown navbar** with routes:
+  - Dashboard
+  - History
+  - Savings
+- Add transactions with:
+  - Description
+  - **+ / - sign selector**
+  - Amount
+  - Date
+  - **Category select options**
+- Automatic totals:
+  - Balance
+  - Income
+  - Expenses
+- **Projected income and projected outcome** panel
+- **Pie chart** showing expenses by category
+- **History page** for all transactions
+- **Savings page** to add and track savings
+- **CSV export** button for full transaction history
+- Placeholder section for future **recommendation system**
+
+## Run locally
+```bash
+npm install
+npm run dev
+```
+
+- Frontend: `http://localhost:5173`
+- Backend API: `http://localhost:3001/api`
+
+## Build frontend
+```bash
+npm run build
+```
